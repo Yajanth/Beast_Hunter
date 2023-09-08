@@ -1,4 +1,4 @@
-# Text-Based Adventure Game - "Epic Quest"
+# Text-Based Adventure Game - "Beast Hunter"
 ## Overview
 "Beast Hunter" is a simple text-based adventure game implemented in Bash scripting. In this game, players select a starting class and embark on a quest to face mythical beasts. The game offers a basic example of character selection, combat mechanics, and random encounters.
 
