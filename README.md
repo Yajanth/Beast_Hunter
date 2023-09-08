@@ -1,12 +1,12 @@
 # Text-Based Adventure Game - "Epic Quest"
 ## Overview
-"Epic Quest" is a simple text-based adventure game implemented in Bash scripting. In this game, players select a starting class and embark on a quest to face mythical beasts. The game offers a basic example of character selection, combat mechanics, and random encounters.
+"Beast Hunter" is a simple text-based adventure game implemented in Bash scripting. In this game, players select a starting class and embark on a quest to face mythical beasts. The game offers a basic example of character selection, combat mechanics, and random encounters.
 
 How to Play
 Run the Game:
 
 Ensure you have a Bash-compatible terminal or shell environment.
-Execute the script by running ./adventure_game.sh in the terminal.
+Execute the script by running ./eldenring.sh in the terminal.
 Character Selection:
 
 # Upon starting the game, you'll be prompted to select your starting class:
@@ -14,6 +14,7 @@ Character Selection:
 2: Prisoner
 3: Prophet
 Choose a class by entering the corresponding number.
+
 # Begin Your Quest:
 
 You'll be assigned a character type (e.g., Samurai), with associated hit points (hp) and attack points (attack).
