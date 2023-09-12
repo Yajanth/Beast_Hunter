@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Welcome transihed.Please select your starting class:
+echo "Welcome Player.Please select your starting chararcter:
 1-Samurai
 2-Prisoner
 3-Prophet"
@@ -27,9 +27,8 @@ case $class in
 esac
 
 echo "Welcome  $type. Your hp is $hp and attack is $attack . All the best. "
-
 #First beast battle
-beast=$(( $RANDOM % 2))
+beast=((RANDOM % 2))
 
 echo 'Your first beast is comming up.
 >>Choose a number between 0-1.'
