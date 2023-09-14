@@ -10,7 +10,7 @@ case $class in
 	1)
 	        type="Samurai"
 	        hp=10
-              	attack=20
+              	attack=2
         	;;
 	
 	2)
@@ -28,16 +28,13 @@ esac
 
 echo "Welcome  $type. Your hp is $hp and attack is $attack . All the best. "
 #First beast battle
-beast=$(( RANDOM % 30 ))
+beast=$(( RANDOM % 10 ))
 
 echo 'Your first beast is comming up.
 >>Choose a number between 1-10.'
 
 read tarnished
-
-strength=$(( tarnised * attack ))
-
-if [[ $beast == $strength ]]; then
+if [[ $beast -le  $tarnished ]]; then
 	echo "Beast VANQUISED!!That was easy.
 	Congrats"
 else
@@ -48,10 +45,11 @@ fi
 sleep 2
 
 #Boss battle
-echo 'Boss Battle,Its the king comming. Pick a number between 0-9'
-beast=$(( $RANDOM % 10 ))
-read tarnised
+echo 'Boss Battle,Its the king comming. Pick a number between 5-20'
+beast=$(( $RANDOM % 50 ))
 
+read tarnised
+strength=$(( tarnised * attack  ))
 if [[ $beast == $tarnised || $tarnised=="coffee" ]]; then
         echo "BOSS VANQUISED!! You are a warrior bro"
 elif [[ $USER == "shera" ]]; then
