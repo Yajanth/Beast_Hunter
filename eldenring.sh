@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Welcome Player.Please select your starting chararcter:
+echo "Welcome Warrior.Please select your starting chararcter:
 1-Samurai
 2-Prisoner
 3-Prophet"
@@ -28,14 +28,16 @@ esac
 
 echo "Welcome  $type. Your hp is $hp and attack is $attack . All the best. "
 #First beast battle
-beast=((RANDOM % 2))
+beast=$(( RANDOM % 30 ))
 
 echo 'Your first beast is comming up.
->>Choose a number between 0-1.'
+>>Choose a number between 1-10.'
 
-read tarnised
+read tarnished
 
-if [[ $beast == $tarnised ]]; then
+strength=$tarnised * $attack
+
+if [[ $beast == $strength ]]; then
 	echo "Beast VANQUISED!!That was easy.
 	Congrats"
 else
