@@ -35,7 +35,7 @@ echo 'Your first beast is comming up.
 
 read tarnished
 
-strength=$tarnised * $attack
+strength=$(( tarnised * attack ))
 
 if [[ $beast == $strength ]]; then
 	echo "Beast VANQUISED!!That was easy.
