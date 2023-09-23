@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 echo "Welcome Warrior.Please select your starting chararcter:
 1-Samurai
 2-Prisoner
@@ -9,7 +9,7 @@ read class
 case $class in
 	1)
 	        type="Samurai"
-	        hp=10
+	              hp=10
               	attack=2
         	;;
 	
@@ -19,7 +19,7 @@ case $class in
                 attack=4
                 ;;
 	3)
-		type="Prophet"
+	        type="Prophet"
                 hp=30
                 attack=5
                 ;;
