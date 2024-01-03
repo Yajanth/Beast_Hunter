@@ -13,7 +13,7 @@ Character Selection:
 1: Samurai
 2: Prisoner
 3: Prophet
-Choose a class by entering the corresponding number.
+Choose a class/player by entering the corresponding number.
 
 # Begin Your Quest:
 
@@ -31,6 +31,3 @@ The goal is to vanquish all the beasts and complete the game.
 The game employs simple randomization to determine beast encounters and outcomes.
 Characters have different attributes based on their starting class.
 The outcome of battles depends on the player's choice (0 or 1).
-# Credits
-This game was created for educational and entertainment purposes.
-Inspired by classic text-based adventure games.
