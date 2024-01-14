@@ -45,7 +45,7 @@ fi
 sleep 2
 
 #Boss battle
-echo 'Boss Battle,Its the king comming. Pick a number between 5-20'
+echo 'Boss Battle, this is a tough one. Pick a number between 5-20'
 beast=$(( $RANDOM % 50 ))
 
 read tarnised
